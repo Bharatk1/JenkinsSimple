@@ -1,0 +1,70 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#wijmo Page in first sprint"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "id": "edit-customer-list;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42437849220,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open the application",
+            "match": {
+              "location": "StepDefs.open_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172810,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Login to application",
+            "match": {
+              "location": "StepDefs.login_to_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 193291,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate the login page",
+            "match": {
+              "location": "StepDefs.validate_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@satya30"
+          }
+        ]
+      }
+    ],
+    "name": "Edit customer list",
+    "description": "As an admin user\r\nI want the ability to add new customer manually into the system \r\nso that new customer will be available for ordering",
+    "id": "edit-customer-list",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
